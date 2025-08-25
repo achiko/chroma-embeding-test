@@ -35,7 +35,7 @@ CHROMA_COLLECTION=sample_docs
 docker run -d -p 8000:8000 --name chroma ghcr.io/chroma-core/chroma:latest
 ```
 
-4) Run the sample
+4) Run the sample (pure TypeScript via tsx)
 ```bash
 npm run dev
 ```
@@ -44,7 +44,7 @@ This will embed a few example docs, upsert them to Chroma, and perform a similar
  
 
 ## Scripts
-- dev: run TypeScript directly with tsx
+- dev: run TypeScript directly with tsx (no ESM required)
 ```bash
 npm run dev
 ```

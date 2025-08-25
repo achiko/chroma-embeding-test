@@ -1,6 +1,6 @@
 import { ChromaClient } from "chromadb";
-import { assertProviderConfig, config } from "./config.js";
-import { createEmbeddingsService } from "./embeddings/index.js";
+import { assertProviderConfig, config } from "./config";
+import { createEmbeddingsService } from "./embeddings";
 
 async function main() {
   assertProviderConfig(config);

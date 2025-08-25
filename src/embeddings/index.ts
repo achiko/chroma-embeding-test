@@ -1,5 +1,5 @@
-import { config } from "../config.js";
-import { createOpenAIEmbeddings } from "./openai.js";
+import { config } from "../config";
+import { createOpenAIEmbeddings } from "./openai";
 
 export interface EmbeddingsService {
   embedOne(text: string): Promise<number[]>;

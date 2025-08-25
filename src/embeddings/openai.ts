@@ -1,5 +1,5 @@
 import OpenAI from "openai";
-import type { EmbeddingsService } from "./index.js";
+import type { EmbeddingsService } from "./index";
 
 export function createOpenAIEmbeddings(params: {
   apiKey: string;
